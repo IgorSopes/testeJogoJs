@@ -8,4 +8,8 @@ if (chute == numeroSecreto) {
 } else {
     alert ('Você errou! Tente de novo')
 
+} else {
+    if (numeroSecreto > chute) {
+        alert(`O número secreto é maior que ${chute}`);
+
 }
